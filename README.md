@@ -1,4 +1,5 @@
 # LookBeforeYouLeap
+
 Leveraging predictive ML models to improve Automotive Safety and Travel Time through Twitter Sentiment Analysis and Traffic Record feature selection
 Authors:  Hannah Do,  Kamil Sachryn           
 
@@ -12,3 +13,26 @@ Authors:  Hannah Do,  Kamil Sachryn
 
 - ML predictions and evaluation (processed files are in 'merged' folder) - 4
 
+### Installation
+
+The model requires the following libraries and programs
+
+ - `python3`
+ - `Jupyter Notebook`
+ - `numpy`
+ - `pandas` 
+ - `matplotlib`
+ - `seaborn` 
+ - `sklearn`
+ - `xgboost`
+
+
+### Usage
+
+The model is designed to be used within Jupyter Notebook, and requires it to run. 
+
+Once started the checkpoint can be used to view a set of possible results, or can be re-run to generate and test a new model with the same or altered parameters. 
+
+### Dataset
+
+The dataset can be changed within the `data_traffic` and `data_twitter` folders with the users own data. 
